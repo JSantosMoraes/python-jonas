@@ -1,0 +1,5 @@
+print('====DESAFIO 06====')
+valor = int(input('Digite um número:'))
+print(f'O dobro de {valor} vale {valor*2}')
+print(f'O triplo de {valor} vale {valor*3}')
+print(f'A Raíz quadrada de {valor} vale {valor**(1/2):.3}')
