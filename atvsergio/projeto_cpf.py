@@ -64,9 +64,5 @@ print(f'\n\nO resultado da criação do seu CPF é: {ordenacao} \n\nDetalhes da 
       f'são definidos pelo resto da divisão da soma de uma multiplicação sequenciada')
 
 
-
-
-
-
 # O método append() em Python é usado para adicionar um elemento ao final de uma lista.
 #n é usado para verificar se todos os caracteres em uma string são dígitos (números inteiros), retornando em um valor booleano.
