@@ -10,7 +10,7 @@ estado = str(input('Digite o número correspondente ao seu estado: \n1 - Destrit
 
 def oito_numeros():
     numeros = ''.join(str(random.randint(0, 9)) for _ in range(8))
-    return f"{numeros[:3]}.{numeros[3:6]}.{numeros[6:9]}-{numeros[9:]}"
+    return numeros
 
 concatenacao = str(oito_numeros() + estado)
 
@@ -23,11 +23,7 @@ for caractere in concatenacao:
         resulm.append(resultado)
         contador -= 1
 
-print("Concatenacao:", concatenacao)
-print("Resultados das multiplicações:", resulm)
-
-soma = resulm[0] + resulm[1] + resulm[2] + resulm[3] + resulm[4] + resulm[5] + resulm[6] + resulm[7] + resulm[8]
-
+soma = sum(resulm)
 resto = soma % 11
 
 def J():
@@ -40,11 +36,37 @@ def J():
 valordej = J()
 concatenacao += str(valordej)
 
-print(valordej)
-print("Novo valor de concatenacao com J:", concatenacao)
+resulm_k = []
+contador_k = 11
+for caractere in concatenacao:
+    if caractere.isdigit():
+        numero = int(caractere)
+        resultado = numero * contador_k
+        resulm_k.append(resultado)
+        contador_k -= 1
 
-#FALTA O VALOR DE K
+soma_k = sum(resulm_k)
+resto_k = soma_k % 11
+
+def K():
+    if resto_k < 2:
+        return 0
+    else:
+        return 11 - resto_k
+
+valordek = K()
+concatenacao += str(valordek)
+
+ordenacao = (f'{concatenacao[:3]}.{concatenacao[3:6]}.{concatenacao[6:9]}-{concatenacao[9:]}')
+
+print(f'\n\nO resultado da criação do seu CPF é: {ordenacao} \n\nDetalhes da criação: \n- Os oito primeiros números são'
+      f'criados aleatoriamente. \n- O nono número é escolhido de acordo com o seu estado. \n- Os digitos verificadores'
+      f'são definidos pelo resto da divisão da soma de uma multiplicação sequenciada')
+
+
+
+
 
 
 # O método append() em Python é usado para adicionar um elemento ao final de uma lista.
-# O método isdigit() em Python é usado para verificar se todos os caracteres em uma string são dígitos (números inteiros), retornando em um valor booleano.
+#n é usado para verificar se todos os caracteres em uma string são dígitos (números inteiros), retornando em um valor booleano.
