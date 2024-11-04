@@ -43,6 +43,8 @@ concatenacao += str(valordej)
 print(valordej)
 print("Novo valor de concatenacao com J:", concatenacao)
 
+#FALTA O VALOR DE K
+
 
 # O método append() em Python é usado para adicionar um elemento ao final de uma lista.
 # O método isdigit() em Python é usado para verificar se todos os caracteres em uma string são dígitos (números inteiros), retornando em um valor booleano.
