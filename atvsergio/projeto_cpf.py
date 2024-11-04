@@ -1,12 +1,12 @@
 import random
 
-print('==== CRIAÇÃO DE CPF ==== \n')
+print('==== GERAÇÃO DE CPF ==== \n(De acordo com as regras oficiais) \n\n')
 
-estado = str(input('Digite o número correspondente ao seu estado: \n1 - Destrito Federal, Goiás,'
+estado = str(input('Digite o número correspondente ao seu estado: \n\n1 - Destrito Federal, Goiás,'
                    'Mato Grosso do sul e Tocantins \n2 - Pará, Amazonas, Acre, Amapá, Rondônia e Roraima'
                    '\n3 - Ceará, Maranhão e Piauí \n4 - Pernambuco, Rio Grande do Norte, Paraíba e Alagoas'
                    '\n5 - Bahia e Sergipe \n6 - Minas Gerais \n7 - Rio de Janeiro, e Espírito Santo'
-                   '\n8 - São Paulo \n9 - Paraná e Santa Catarina 0 - Rio Grande do Sul\n \nDigite aqui: '))
+                   '\n8 - São Paulo \n9 - Paraná e Santa Catarina \n0 - Rio Grande do Sul\n \nDigite aqui: '))
 
 def oito_numeros():
     numeros = ''.join(str(random.randint(0, 9)) for _ in range(8))
@@ -59,10 +59,13 @@ concatenacao += str(valordek)
 
 ordenacao = (f'{concatenacao[:3]}.{concatenacao[3:6]}.{concatenacao[6:9]}-{concatenacao[9:]}')
 
-print(f'\n\nO resultado da criação do seu CPF é: {ordenacao} \n\nDetalhes da criação: \n- Os oito primeiros números são'
+print(f'\n\nO resultado da criação do seu CPF é: {ordenacao} \n\nDetalhes da criação: \n- Os oito primeiros números são '
       f'criados aleatoriamente. \n- O nono número é escolhido de acordo com o seu estado. \n- Os digitos verificadores'
-      f'são definidos pelo resto da divisão da soma de uma multiplicação sequenciada')
+      f'são definidos pelo resto da divisão da soma de uma multiplicação sequenciada\n- O número que você digitou no '
+      f'começo foi inserido no nono digito do cpf. \n\n')
+
+print('MIT License \nCopyright (c) 2024 Jonas8233144234')
 
 
 # O método append() em Python é usado para adicionar um elemento ao final de uma lista.
-#n é usado para verificar se todos os caracteres em uma string são dígitos (números inteiros), retornando em um valor booleano.
+# isdigit é usado para verificar se todos os caracteres em uma string são dígitos (números inteiros), retornando em um valor booleano.
