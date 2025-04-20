@@ -1,4 +1,4 @@
-# Crie um programa python que leia o nome completo de uma pessoa  e motre:
+# Crie um programa python que leia o nome completo de uma pessoa e motre:
 # - O nome com todas as letras maiúsculas
 # - O nome com todas minúsculas
 # - Quantas letras ao todo (sem considerar espaços)

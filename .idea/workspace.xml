@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2222b957-ac67-44e9-a834-e90a62de4217" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/desafios/desafio023.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desafios/desafio024.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafios/desafio022.py" beforeDir="false" afterPath="$PROJECT_DIR$/desafios/desafio022.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/atvsergio/projeto_cpf.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/desafios/desafio022.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/desafios/desafio023.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
