@@ -1,4 +1,4 @@
-print('====DESAFIO 09====')
+print('==== DESAFIO 009 ====')
 valor = int(input('Digite um número para ver sua tabuada:'))
 print('____________')
 print(f'{valor} x 1 = {valor*1}')

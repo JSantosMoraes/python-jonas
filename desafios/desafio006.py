@@ -1,4 +1,4 @@
-print('====DESAFIO 06====')
+print('==== DESAFIO 006 ====')
 valor = int(input('Digite um número:'))
 print(f'O dobro de {valor} vale {valor*2}')
 print(f'O triplo de {valor} vale {valor*3}')

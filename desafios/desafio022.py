@@ -4,8 +4,7 @@
 # - Quantas letras ao todo (sem considerar espaços)
 # - Quantas letras tem primeiro nome
 
-print('==== DESAFIO 22 ====')
-
+print('==== DESAFIO 022 ====')
 nome = str(input('Digite seu nome completo: '))
 print('Seu nome com todas as letras maiúsculas:',nome.upper())
 print('\n Seu nome com todas as letras minúsculas:',nome.lower())
